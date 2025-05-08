@@ -7,7 +7,7 @@ let package = Package(
         .iOS(.v14)
     ],
     products: [
-        .executable(name: "FlashcardApp", targets: ["FlashcardApp"])
+        .library(name: "FlashcardApp", targets: ["FlashcardApp"])
     ],
     dependencies: [],
     targets: [
